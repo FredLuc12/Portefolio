@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio ABLEFONLIN Fred</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <nav class="navbar">
+        <img src="R.png" class="lzy1Td" role="img" aria-label="Accueil du site" jsname="SwcDWb"></a>
+        <div class="nav-links ">
+            <ul>
+                <li class="active"><a href="index.html">Qui suis je ?</a></li>
+                <li><a href="parcs.html">Parcours</a></li>
+                <li><a href="btsio.html">BTS SIO</a></li>
+                <li><a href="projetpro.html">Projets Professionnels</a></li>
+                <li><a href="veille.html">Veilles</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+      <br>
+      <h1>Veilles </h1>
+    </header>
+    <main>
+      <section id="a-propos">
+        <br>
+        <h3>Cette section est dédiés aux veilles stratégiques.</h3>
+        <br><br><br>
+        <img src="veille.jpg" style="height:400px">
+      </section>
+      <br>
+      <br>
+
+      <div class="option">
+        <h3>La veille stratégique est un type de veille informationnelle
+         qui englobe l’ensemble des autres veilles, telles que la 
+         veille sociétale, la veille en entreprise, la veille 
+         concurrentielle, la veille commerciale, la veille fournisseur,
+         la veille image, la veille juridique ou encore la veille 
+         technologique. Elle regroupe les techniques de recherche 
+         d’information, traitement de l’information et de 
+         visualisation d’informations. La veille stratégique est 
+         une aide à la prise de décision stratégique pour une
+         entreprise ou une administration, voire un État grâce à 
+         une analyse des évolutions tendancielles et de leur 
+         environnement. La veille est de nature itérative et 
+         prospective afin d’anticiper les changements dans 
+         l’environnement de l’organisation et d’éviter des 
+         événements indésirables.</h3>
+      </div>
+        <br>
+        <br>
+      <section id="a-propos">
+        <br>
+        <h3>Liens vers les veilles :</h3>
+        <br><br>
+
+        <div class="but">
+          <a href="tech.html">
+            <button style="color:white; width:30vh">Veille technologique</button>
+          </a>  
+          <a href="jur.html">  
+            <button style="color:white; width:30vh">Veille Juridique</button>
+          </a>
+        </div>
+
+      </section>
+    <main>
+    <br><br>
+</body>
+
+  <footer>
+		<p>Copyright © 2023 ABLEFONLIN Fred</p>
+	</footer>
+
+    <script>
+        const menuHamb = document.querySelector(".menu-hamb")
+        const navLinks = document.querySelector(".nav-links")
+
+        menuHamb.addEventListener("click",()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>

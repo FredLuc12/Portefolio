@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio ABLEFONLIN Fred</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <nav class="navbar">
+        <img src="R.png" class="lzy1Td" role="img" aria-label="Accueil du site" jsname="SwcDWb">Portfolio ABLEFONLIN Fred</a>
+        <div class="nav-links ">
+            <ul>
+                <li class="active"><a href="index.html">Qui suis je ?</a></li>
+                <li><a href="btsio.html">BTS SIO</a></li>
+                <li><a href="projetpro.html">Projets Professionnels</a></li>
+                <li><a href="veille.html">Veilles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+      <br>
+      <h1>Contact</h1>
+    </header>
+
+  <div class="forme">
+    <h1>Mes coordonnées</h1><br>
+    <p>Pour me contacter</p><br>
+
+    <form method="post" action="contact.php">
+
+      <div class="champ">
+        <label for="nom"><h2>Mon mail pro: </h2></label>
+        <h3>ablefonlin.f@yahoo.com</h3>
+        <br><br>
+        <label for="nom"><h2>Mon numéro de téléphone pro : </h2></label>
+        <h3>+33 0699724127</h3>
+        <br><br>
+
+      </div>
+
+    </form>
+  </div><br><br><br><br><br><br>
+  
+</body>
+
+  <footer>
+		<p>Copyright © 2023 ABLEFONLIN Fred</p>
+	</footer>
+
+    <script>
+        const menuHamb = document.querySelector(".menu-hamb")
+        const navLinks = document.querySelector(".nav-links")
+
+        menuHamb.addEventListener("click",()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>
